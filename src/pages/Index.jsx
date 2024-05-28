@@ -1,4 +1,4 @@
-import { Container, Box, Heading, Text, VStack, HStack, Button, IconButton, Image } from "@chakra-ui/react";
+import { Container, Box, Heading, Text, VStack, HStack, Button, IconButton, Image, Link } from "@chakra-ui/react";
 import { FaTwitter, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const Index = () => {
@@ -72,6 +72,11 @@ const Index = () => {
             <IconButton aria-label="LinkedIn" icon={<FaLinkedin />} size="lg" />
             <IconButton aria-label="Facebook" icon={<FaFacebook />} size="lg" />
           </HStack>
+          <Box textAlign="center" py={4}>
+            <Link href="/logo-and-typeform" color="teal.500" fontSize="lg">
+              View Our Logo and Typeform
+            </Link>
+          </Box>
           <Text fontSize="sm" mt={4}>
             © 2023 Hummingbird Ventures. All rights reserved.
           </Text>
